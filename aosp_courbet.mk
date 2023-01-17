@@ -11,9 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from courbet device
 $(call inherit-product, device/xiaomi/courbet/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := aosp_courbet
 PRODUCT_DEVICE := courbet
