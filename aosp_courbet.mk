@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/courbet/device.mk)
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := aosp_courbet
 PRODUCT_DEVICE := courbet
 PRODUCT_BRAND := Xiaomi
