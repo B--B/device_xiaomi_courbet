@@ -23,9 +23,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libpiex_shim \
+    com.google.android.GoogleCameraEng \
     GoogleCameraENG \
-    com.google.android.GoogleCameraEng
+    GoogleCamera_6gb_ram \
+    libpiex_shim
 
 # Display
  PRODUCT_COPY_FILES += \
