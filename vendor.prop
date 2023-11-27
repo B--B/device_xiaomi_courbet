@@ -19,6 +19,11 @@ vendor.display.idle_time=1100
 # Fluence
 ro.vendor.audio.sdk.fluencetype=fluence
 
+# Display power reduction (FOSS)
+vendor.display.foss.config=1
+vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
+vendor.display.aba.log_level=0
+
 # Qualcomm Assertive Display
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
