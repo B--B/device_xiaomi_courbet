@@ -28,6 +28,9 @@ ODM_MANIFEST_COURBET_FILES := \
 # Kernel
 TARGET_KERNEL_CONFIG := courbet_defconfig
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/battery_charging_enabled
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
 BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184
