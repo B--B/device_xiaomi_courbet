@@ -1,0 +1,2 @@
+# Early wakeup node
+type vendor_sysfs_sde_crtc, sysfs_type, fs_type;
