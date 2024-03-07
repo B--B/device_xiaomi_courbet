@@ -11,3 +11,6 @@ genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc/wakeup_enable          
 
 # Nodes
 genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-  u:object_r:vendor_sysfs_sde_crtc:s0
+
+# Wakeup nodes
+genfscon sysfs /devices/platform/soc/890000.spi/spi_master/spi1/spi1.0/wakeup   u:object_r:sysfs_wakeup:s0
