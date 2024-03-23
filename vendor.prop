@@ -17,6 +17,7 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.vendor.audio.sdk.fluencetype=fluence
 
 # Display power reduction (FOSS)
+ro.vendor.display.foss=1
 vendor.display.foss.config=1
 vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
 vendor.display.aba.log_level=0
@@ -25,4 +26,5 @@ vendor.display.aba.log_level=0
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
+ro.vendor.display.paneltype=2
 ro.vendor.display.sensortype=2
